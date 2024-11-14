@@ -27,7 +27,7 @@ docker run -v ./data:/data trainining-container:latest \
 --per_device_eval_batch_size=1
 ```
 
-The volume binding `-v ./data:/data` allows to recver the finetuned model weights in a local directory (`./data`) after the training script is finished.
+The volume binding `-v ./data:/data` allows to recover the finetuned model weights in a local directory (`./data`) after the training script is finished.
 
 ## Adapting the training script
 
